@@ -1,0 +1,28 @@
+@media(max-width: 1440px){
+    main{
+        max-width: 95%;
+    }
+  .carddex{
+      padding: 0;
+     }
+ 
+     .cartao{
+         padding: 20px 11px;
+     }
+     .cartao .cartao-topo img{
+         height: 240px;
+         width: 250px;
+         padding: 0 10px;
+     }
+     .informacoes .info1{
+         font-size: 10px;
+     }
+ 
+     .informacoes .info2{
+         font-size: 13px;
+     }
+ 
+       .creator{
+             font-size: 15px;
+         }
+}

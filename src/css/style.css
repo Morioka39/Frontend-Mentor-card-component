@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(217, 54%, 11%);
+    min-height: 100vh;  
+    min-width: 100%;
+    flex-direction: column;
+
+}
+
+.carddex{
+    background-color:  hsl(216, 50%, 16%);
+    display: flex;
+    gap: 38px;
+    border-radius: 10px;
+    padding: 20px 20px; 
+
+}
+
+.cartao .cartao-topo img{
+    max-height: 300px;
+    border-radius: 5%;
+}
+
+.info1 a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.info1 a:hover {
+    color: hsla(178, 100%, 50%);
+} 
+
+
+.informacoes .info1 p{
+    color: hsl(215, 51%, 70%);
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.informacoes .info2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.informacoes .creator{
+ display: flex;
+ margin-top: 10px;
+ border-top: 1px solid  hsl(215, 51%, 70%);
+ padding-top: 10px;
+}
+
+.informacoes .creator img{
+    height: 30px;
+}
+
+.creator a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.creator a:hover{
+   color: hsla(178, 100%, 50%);
+}
+
+.informacoes .creator .proprietario{
+    color:  hsl(215, 51%, 70%);
+    margin-left: 10px;
+    margin-top: 5px;
+ 
+}
+
+#meunome{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+#meunome a{
+    color: rgb(82, 221, 39);
+}
+
+.informacoes .creator .nome{
+    color: hsl(0, 0%, 100%);
+}
+
+.color-etherium{
+    color:  hsl(178, 100%, 50%);
+}
+
+.color-clock{
+    color: hsl(215, 51%, 70%)
+}
+
+
