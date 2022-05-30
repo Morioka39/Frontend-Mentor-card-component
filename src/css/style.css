@@ -33,7 +33,7 @@ main{
     border-radius: 5%;
 }
 
-.info1 a{
+.info1 .titulo{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -41,7 +41,7 @@ main{
     padding: 20px 0;
 }
 
-.info1 a:hover {
+.info1 .titulo:hover {
     color: hsla(178, 100%, 50%);
 } 
 
